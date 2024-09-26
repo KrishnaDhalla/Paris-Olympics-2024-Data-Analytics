@@ -12,23 +12,35 @@ The dataset is publicly available on **Kaggle** and in this GitHub repository. I
 - **Medals**: Medal data from the Paris 2024 Olympics.
 - **Medallists**: Details of athletes who won medals.
 
+  ![Data Engineering Pipeline](https://github.com/KrishnaDhalla/Paris-Olympics-2024-Data-Analytics/blob/main/Assets/ADLS.png)
+
 ## Project Workflow
 
 ### 1. Data Ingestion
 - Data was ingested from my **GitHub repository** into **Azure Data Lake Storage (ADLS) Gen2**.
 - Alternatively, **Azure Data Factory (ADF)** can be used to pull data directly from an API into ADLS.
 
+  ![Data Engineering Pipeline](https://github.com/KrishnaDhalla/Paris-Olympics-2024-Data-Analytics/blob/main/Assets/Pipeline.png)
+
+
 ### 2. Data Transformation and Cleaning
 - **Azure Databricks** was used for data processing. 
 - Data cleaning, transformation, and **exploratory data analysis (EDA)** were performed.
 - The cleaned and transformed data was saved back to ADLS in a folder named **"Transformed Data"**.
 
+  ![Data Engineering Pipeline](https://github.com/KrishnaDhalla/Paris-Olympics-2024-Data-Analytics/blob/main/Assets/Databricks.png)
+
+
 ### 3. Data Analysis
 - **Azure Synapse Analytics** was used to run **SQL queries** on the transformed data to derive insights.
 
+  ![Data Engineering Pipeline](https://github.com/KrishnaDhalla/Paris-Olympics-2024-Data-Analytics/blob/main/Assets/Synapse.png)
+
+
 ### 4. Data Visualization
 - Basic **visualizations** were created using **Microsoft Power BI** to display key insights from the data.
-
+  
+  ![Dashboard](https://github.com/KrishnaDhalla/Paris-Olympics-2024-Data-Analytics/blob/main/Assets/Dashboard.png)
 ## Queries Executed
 
 Here are some of the key SQL queries and insights derived:
